@@ -1,0 +1,213 @@
+.color-red{
+	color: #f04e55;
+}
+.background-rojo{
+	background: #f04e55;
+}
+
+
+.Titulo{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 50px;
+
+}
+.Titulo-Gris{
+
+	font-family: 'Quicksand', sans-serif;	
+	color: #575756;			
+	font-size: 40px;
+	padding-top: 10%;
+	text-align: center;
+}
+
+.Titulo-blanco{
+	font-family: 'Quicksand', sans-serif;	
+	color: #FFFFFF;			
+	font-size: 40px;
+	padding:0% 5% 5% 4%;
+	text-align: center;
+}
+
+
+p{
+font-family: 'Quicksand', sans-serif;
+font-size: 16px;	
+}
+.space{
+	padding-top: 10%;
+}
+.contenedor{
+	width: 90%;
+}
+.textIntro{
+	font-family: 'Quicksand', sans-serif;
+	padding:10%;
+	color: #575756;
+	font-size:20px;
+	text-align: center;
+}
+/*.globos{
+	background-color: #9933CC;
+	width: 100%;
+
+}
+*/
+
+.if-image {
+
+filter: grayscale(100%);
+
+-webkit-filter: grayscale(100%);
+
+}
+
+.if-image {
+
+filter: grayscale(100%);
+
+-webkit-filter: grayscale(100%);
+
+transition:filter 0.4s;
+
+-webkit-transition:-webkit-filter 1s;
+
+}
+.if-image:hover {
+
+filter: grayscale(0);
+
+-webkit-filter: grayscale(0);
+
+}
+
+.linea{
+
+	border-top: 3px solid #f04e55;
+	width: 10%;
+	 height: 10px;
+	
+	text-align: center;
+}
+.linea2{
+
+	border-top: 3px solid #f04e55;
+	width: 80%;
+	 height: 10px;
+	
+	text-align: center;
+}
+
+
+.linea:hover{
+	border-top: 3px solid #f04e55;
+	width: 50%;
+
+	text-align: center;
+}
+.linea-blanca{
+
+	border-top: 3px solid #ffffff;
+	width: 10%;
+	 height: 10px;
+	
+	text-align: center;
+}
+
+.linea-blanca:hover{
+	border-top: 3px solid #ffffff;
+	width: 50%;
+
+	text-align: center;
+}
+.naranja{
+	margin-top: 5%;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	background-color: #f04e55;
+	height:auto;
+}
+
+.imgcentrado{
+ padding: 5% 30% 5% 30%;
+}
+.caja{
+	padding: 5%;
+}
+.text-Hacemos{
+	color: #FFFFFF;
+	text-align: center;
+}
+.sub-titulo{
+	color: #FFFFFF;
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+}
+
+
+.nosotros{
+	margin-top: 10%;
+	background-color: 
+}
+
+.footergris{
+	margin-top:10%;
+	background-color: #333;
+	width: 100%;
+	height:300px;
+
+}
+.equipo{
+	margin-top: 10%;
+	background-color: #f7f7f7;
+	width: 100%;
+	height: auto;
+}
+
+.Titulo-Gris-equipo{
+	font-family: 'Quicksand', sans-serif;	
+	color: #575756;			
+	font-size: 40px;
+	padding:14% 14% 2% 15%;
+	
+}
+
+
+.shotviw{
+	font-family: 'Quicksand', sans-serif;
+	padding:5%;
+	color: #575756;
+	font-size:16px;
+	padding:5% 10% 2% 15%;
+}
+.redes{
+	padding:5% 10% 2% 15%;
+}
+.social{
+	padding: 2%;
+}
+
+.textIntro3{
+	font-family: 'Quicksand', sans-serif;
+	margin-top: 5%;
+	color: #FFFFFF;
+	font-size:20px;
+	text-align: center;
+}
+.algo{
+	margin-top: 10%;
+	background-color: #333;
+	width: 100%;
+	height: auto;
+	padding-top: 2%;
+	padding-bottom: 2%;
+
+}
+.aliados{
+	margin-top:10%;
+	margin-bottom:10%;
+
+}
+.iconos-empresas{
+ padding-top: 15%;
+ padding-bottom: 15%;
+}
