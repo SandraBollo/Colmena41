@@ -4,7 +4,10 @@
 .background-rojo{
 	background: #f04e55;
 }
-
+.barra{
+	background-color:#FFFFFF;
+	width: 100%;
+}
 
 .Titulo{
 	font-family: 'Quicksand', sans-serif;
@@ -17,6 +20,13 @@
 	color: #575756;			
 	font-size: 40px;
 	padding-top: 10%;
+	text-align: center;
+}
+
+.Titulo-Gris2{
+	font-family: 'Quicksand', sans-serif;	
+	color: #575756;			
+	font-size: 30px;
 	text-align: center;
 }
 
@@ -34,7 +44,8 @@ font-family: 'Quicksand', sans-serif;
 font-size: 16px;	
 }
 .space{
-	padding-top: 10%;
+	padding-top: 17%;
+	padding-bottom: 15%;
 }
 .contenedor{
 	width: 90%;
@@ -52,6 +63,11 @@ font-size: 16px;
 
 }
 */
+
+.colmena{
+ background-color: #f7f7f7;
+ width: 100%;
+}
 
 .if-image {
 
@@ -120,7 +136,7 @@ filter: grayscale(0);
 	text-align: center;
 }
 .naranja{
-	margin-top: 5%;
+	
 	padding-top: 10%;
 	padding-bottom: 10%;
 	background-color: #f04e55;
@@ -145,19 +161,25 @@ filter: grayscale(0);
 
 
 .nosotros{
-	margin-top: 10%;
-	background-color: 
+	margin-top: 15%;
+	margin-bottom: 15%;
 }
 
 .footergris{
-	margin-top:10%;
-	background-color: #333;
+	padding-top: 2%;
+	background-color:#333;
 	width: 100%;
-	height:300px;
+	height:auto;
 
 }
+.redessocialescolmena{
+background-color: #f04e55;
+height: 100px;
+width: 100%;
+}
+
 .equipo{
-	margin-top: 10%;
+	/*margin-top: 15%;*/
 	background-color: #f7f7f7;
 	width: 100%;
 	height: auto;
@@ -194,12 +216,10 @@ filter: grayscale(0);
 	text-align: center;
 }
 .algo{
-	margin-top: 10%;
+	
 	background-color: #333;
 	width: 100%;
 	height: auto;
-	padding-top: 2%;
-	padding-bottom: 2%;
 
 }
 .aliados{
@@ -210,4 +230,122 @@ filter: grayscale(0);
 .iconos-empresas{
  padding-top: 15%;
  padding-bottom: 15%;
+}
+
+.contenedor{
+	padding:10% 20% 4% 20%;
+}/*
+*/
+.inlinform{
+  margin:15%;
+}
+.inlinform input{
+  display:inline-block;
+  border:none;
+  outline:none;
+  margin:8px 4px;
+  font-size:14px;
+  max-width:100%;
+  padding:12px 20px;
+  border-radius:30px;
+}
+
+
+.inline-form{
+  margin:5%;
+}
+.inline-form input{
+  display:inline-block;
+  border:none;
+  outline:none;
+  margin:8px 4px;
+  font-size:14px;
+  max-width:100%;
+  padding:12px 20px;
+  border-radius:30px;
+}
+
+
+
+
+input[type="email"]{
+  width:250px;
+}
+
+input[type="text"]{
+  width:250px;
+}
+input[type="text"]{
+  width:250px;
+}
+
+input[type="submit"]{
+ width:180px;
+  cursor: pointer;
+  background: #f04e55;
+ 
+  color:#FFFFFF;
+  text-align:center;
+  font-weight:400;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+input[type="submit"]:active {
+  background: #cc324b;
+}
+
+@media (max-width: 728px) {
+  .newsletter-box{
+    padding:80px 20px;
+  }
+  input[type="text"],
+  input[type="email"]{
+    width:210px;
+  }
+  input[type="submit"]{
+    width:250px;
+  }
+}
+
+
+.button{
+  width:180px;
+  cursor: pointer;
+  background: #f04e55;
+  display:inline-block;
+  border:none;
+  outline:none;
+
+  font-size:14px;
+  max-width:100%;
+  padding:12px 20px;
+  border-radius:30px;
+  color:#FFFFFF;
+  text-align:center;
+  font-weight:400;
+  margin-left: 40%;
+}
+
+.decotation{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+/**{ 
+  box-sizing: border-box; 
+  outline: 1px solid rgba(255,0,0,.2);
+}
+*/
+
+  
+   
+
+.iconos-redes{
+	margin-top: 5%;
+	margin-left: 4%;
+	margin-right: 2%;
+	padding-bottom: 5%;
+
+
 }
