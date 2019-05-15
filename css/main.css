@@ -355,7 +355,10 @@ input[type="submit"]:active {
 	border-top: 5%;
 	padding: 0 10% 15% 15%;
 }
-
+.notificacion{
+	color: #FFFFFF;
+	
+}
 
 .iconos-redes{
 	margin-top: 5%;
